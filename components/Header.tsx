@@ -132,6 +132,9 @@ export function Header() {
         <a className="header-call" href={telHref}>
           اتصال
         </a>
+        <a className="header-call header-wa" href={waHref} target="_blank" rel="noopener noreferrer">
+          واتساب
+        </a>
         <button
           type="button"
           className={open ? "burger open" : "burger"}

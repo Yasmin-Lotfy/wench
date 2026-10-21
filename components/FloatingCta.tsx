@@ -17,13 +17,13 @@ export function FloatingCta() {
   return (
     <>
       <div className="float-cta">
-        <a className="float-row" href={waHref} target="_blank" rel="noopener noreferrer">
+        <a className="float-row" href={waHref} target="_blank" rel="noopener noreferrer" aria-label="واتساب">
           <span className="float-btn wa" aria-hidden="true">
             <WhatsappIcon />
           </span>
           <span className="float-label">واتساب</span>
         </a>
-        <a className="float-row" href={telHref}>
+        <a className="float-row" href={telHref} aria-label="اتصل الآن">
           <span className="float-btn phone" aria-hidden="true">
             <PhoneIcon />
           </span>
