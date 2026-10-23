@@ -36,6 +36,7 @@ export const nav = [
   { href: "/", label: "الرئيسية" },
   { href: "/about", label: "من نحن" },
   { href: "/services", label: "خدماتنا" },
+  { href: "/areas", label: "مناطق الخدمة" },
   { href: "/clients", label: "عملائنا" },
   { href: "/contact", label: "اتصل بنا" },
 ] as const;
