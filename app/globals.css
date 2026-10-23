@@ -763,8 +763,9 @@ p { margin: 0; }
     border-left: 0;
     cursor: pointer;
   }
+  .icon-btn:hover svg { color: var(--teal); }
   .social-static { border-right: 0; }
-  .search-wrap { position: relative; }
+  .search-wrap { position: relative; display: flex; }
   .search-form {
     position: absolute;
     top: calc(100% + 6px);

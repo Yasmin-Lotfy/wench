@@ -98,7 +98,7 @@ export function CheckIcon(props: IconProps) {
 
 export function FacebookIcon(props: IconProps) {
   return (
-    <Svg fill="currentColor" {...props}>
+    <Svg viewBox="4 4.4 15 15" fill="currentColor" {...props}>
       <path d="M14.2 8.2H12.6V7c0-.4.3-.6.7-.6h.9V4.6h-1.6c-1.7 0-2.7 1-2.7 2.6v1H8.4V11h1.5v8.2h2.7V11h1.5l.4-2.8Z" />
     </Svg>
   );
@@ -106,7 +106,7 @@ export function FacebookIcon(props: IconProps) {
 
 export function TwitterIcon(props: IconProps) {
   return (
-    <Svg fill="currentColor" {...props}>
+    <Svg viewBox="5.75 4.15 14 14" fill="currentColor" {...props}>
       <path d="M18.6 7.4c.5-.3.8-.8.9-1.3-.5.3-1 .5-1.6.6A2.3 2.3 0 0 0 12.7 9c0 .2 0 .4.1.5-1.9-.1-3.6-1-4.7-2.4-.2.3-.3.7-.3 1.1 0 .8.4 1.5 1 1.9-.4 0-.8-.1-1.1-.3v.1c0 1.1.8 2 1.8 2.3-.2.1-.4.1-.7.1-.2 0-.3 0-.5-.1.3 1 1.2 1.7 2.3 1.7A4.6 4.6 0 0 1 6 15.4a6.5 6.5 0 0 0 3.5 1c4.2 0 6.5-3.5 6.5-6.5v-.3c.4-.3.8-.7.9-1.2Z" />
     </Svg>
   );
@@ -114,9 +114,13 @@ export function TwitterIcon(props: IconProps) {
 
 export function PinterestIcon(props: IconProps) {
   return (
-    <Svg stroke="currentColor" strokeWidth="1.7" {...props}>
+    <Svg viewBox="3 3 18 18" stroke="currentColor" strokeWidth="1.7" {...props}>
       <circle cx="12" cy="12" r="8" />
-      <path strokeLinecap="round" d="M11 19c.4-1.3.8-2.7.9-3.4.2-.6 0-1.2-.4-1.4-.4-.2-.7.3-.6.9.2.7.7 1.1 1.2.7.7-.4 1.1-1.2 1.1-2 0-.9-.6-1.5-1.4-1.5-.8 0-1.4.6-1.4 1.4 0 .4.2.8.4 1" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M10.8 19.4 12.3 13.4M12.3 13.6c.4.8 1.2 1.2 2 1.1 1.7-.2 2.7-2 2.6-3.8-.2-2.3-2.3-3.7-4.6-3.6-2.6.1-4.4 2-4.3 4.4 0 .9.4 1.7.9 2.1"
+      />
     </Svg>
   );
 }
